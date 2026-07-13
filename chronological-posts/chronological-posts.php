@@ -1,16 +1,16 @@
 <?php
 /**
  * Plugin Name: Chronological Posts
- * Plugin URI: http://celloexpressions.com/plugins/chronological-posts/
+ * Plugin URI: https://celloexpressions.com/plugins/chronological-posts/
  * Description: Globably reverses the post order to be chronological, so that your site can display a journal or a book in chronological order.
- * Version: 1.0
+ * Version: 1.1
  * Author: Nick Halsey
- * Author URI: http://celloexpressions.com/
+ * Author URI: https://celloexpressions.com/
  * Tags: post order, chronological, reverse post order
- * License: GPL
+ * License: GPLv2
 
 =====================================================================================
-Copyright (C) 2016 Nick Halsey
+Copyright (C) 2026 Nick Halsey
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -27,6 +27,8 @@ along with WordPress; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 =====================================================================================
 */
+
+if ( ! defined( 'ABSPATH' ) ) exit;
 
 add_filter( 'pre_get_posts', 'reverse_post_order_pre_get_posts' );
 function reverse_post_order_pre_get_posts( $query ) {

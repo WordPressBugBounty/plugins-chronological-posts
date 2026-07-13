@@ -2,8 +2,8 @@
 Contributors: celloexpressions, annenbergdl
 Tags: post order, chronological, reverse post order
 Requires at least: 4.4
-Tested up to: 6.6
-Stable tag: 1.0
+Tested up to: 7.0
+Stable tag: 1.1
 Description: Globably reverses the post order to be chronological, so that your site can display a journal or a book in chronological order.
 License: GPLv2
 
@@ -23,7 +23,10 @@ There are no options. When active, this plugin will automatically display your p
 This plugin changes all post types to be chronological, globally. To apply it only to a specific post type, I suggest forking the plugin and adding a simple check for the post type of the query before it sets the query order to `ASC`. This is not a complicated process - the plugin has only 6 lines of code.
 
 == Changelog ==
-= 1.0 =
+= 1.1 (7/13/2026) =
+* 10-year compatibility verification and code hardening.
+
+= 1.0 (3/30/2016) =
 * First publicly available version of the plugin.
 
 == Upgrade Notice ==
